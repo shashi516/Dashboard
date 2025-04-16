@@ -13,7 +13,7 @@ const Dashboard = () => {
     return (
         <div className='grow p-8'>
             <h1 className='text-2xl mb-4'>Dashboard</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 cursor-pointer'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 cursor-pointer dark:text-gray-800'>
                 <Cards icon={<FaShoppingCart />} title="Orders" value="120" />
                 <Cards icon={<FaBox />} title="Products" value="140" />
                 <Cards icon={<FaUsers />} title="Users" value="30" />
